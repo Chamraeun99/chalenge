@@ -19,17 +19,18 @@ let lcen = true;
 bt.onclick = function(){
     bt = document.getElementById("in").value;
     if(bt <= 10){
-        document.getElementById("hello").textContent = `ចងមុង ${bt}`;
+        document.getElementById("hello").textContent = `ទៅផ្ទះ ${bt}`;
         if(lcen){
-            document.getElementById("hello2").textContent = `You deserve: ${bt}`;
+            document.getElementById("hello2").textContent = `You deserve`;
         }
         else{
             document.getElementById("hello2").textContent = `Not deserve`;
         }
     }
     else{
-         document.getElementById("hello").textContent = `អត់ចង! ${bt}`;
+         document.getElementById("hello").textContent = `អត់ចង់​! ${bt}`;
     }
     
 }
+
 
